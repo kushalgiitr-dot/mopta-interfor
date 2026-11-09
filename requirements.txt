@@ -1,0 +1,7 @@
+pyomo>=6.7
+pandas
+numpy
+openpyxl
+# at least one MILP solver:
+gurobipy      # preferred (free academic licence); the model falls back to HiGHS automatically
+highspy       # free fallback
